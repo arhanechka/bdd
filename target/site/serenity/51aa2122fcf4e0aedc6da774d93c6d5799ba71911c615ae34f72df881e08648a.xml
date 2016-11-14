@@ -1,0 +1,20 @@
+<acceptance-test-run title="As a user I want to teo positive numbers" name="As a user I want to teo positive numbers" steps="3" successful="0" failures="0" errors="1" skipped="2" ignored="0" pending="0" annotated-result="ERROR" result="ERROR" duration="2842" timestamp="2016-09-03T15:09:54.118+02:00">
+  <user-story id="addition" name="Addition" path="stories/addition.story"/>
+  <tags>
+    <tag name="Addition" type="story"/>
+  </tags>
+  <test-group name="Given Calculator page is opened" result="ERROR">
+    <test-step result="ERROR" duration="522">
+      <description>Start calc</description>
+      <error>net.thucydides.core.webdriver.UnsupportedDriverException: Could not instantiate class org.openqa.selenium.firefox.FirefoxDriver</error>
+      <exception>net.thucydides.core.webdriver.UnsupportedDriverException:Could not instantiate class org.openqa.selenium.firefox.FirefoxDriver&#xd;
+[org.oa.calc.pages.AdditionPage.startCalc(AdditionPage.java:36), org.oa.calc.serenity.AdditionSerenity.StartCalc(AdditionSerenity.java:18), org.oa.calc.definitions.AdditionDefSteps.StartCalc(AdditionDefSteps.java:25)]</exception>
+    </test-step>
+  </test-group>
+  <test-step result="SKIPPED" duration="1">
+    <description>When I add {2} and {3}</description>
+  </test-step>
+  <test-step result="SKIPPED" duration="1">
+    <description>Then the result is {5}</description>
+  </test-step>
+</acceptance-test-run>

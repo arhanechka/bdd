@@ -1,0 +1,6 @@
+#org.jbehave.core.embedder.StoryManager
+#Sat Sep 03 15:53:56 GMT+02:00 2016
+threads=1
+total=14000
+threadAverage=14000
+stories/addition.story=14000

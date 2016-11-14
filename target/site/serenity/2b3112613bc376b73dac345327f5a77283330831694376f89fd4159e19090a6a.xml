@@ -1,0 +1,34 @@
+<acceptance-test-run title="As a user I want to add teo positive numbers" name="As a user I want to add teo positive numbers" steps="3" successful="1" failures="0" errors="1" skipped="1" ignored="0" pending="0" annotated-result="ERROR" result="ERROR" duration="11613" timestamp="2016-09-03T15:53:42.450+02:00" session-id="9e1eb75eed869e156bd22b04700c0fa2">
+  <user-story id="addition" name="Addition" path="stories/addition.story"/>
+  <tags>
+    <tag name="Addition" type="story"/>
+  </tags>
+  <test-group name="Given Calculator page is opened" result="SUCCESS">
+    <test-step result="SUCCESS" duration="23">
+      <description>Start calc</description>
+    </test-step>
+  </test-group>
+  <test-group name="When I add ｟2｠ and ｟3｠" result="ERROR">
+    <test-step result="ERROR" duration="2030">
+      <screenshots>
+        <screenshot image="0030fec8e8ec554c3fbc1060a7ab8cb3.png"/>
+        <screenshot image="0030fec8e8ec554c3fbc1060a7ab8cb3.png" source="pagesource6309479859449349628.html.txt"/>
+      </screenshots>
+      <description>Adding: 2, 3</description>
+      <error>org.openqa.selenium.NoSuchElementException: Timed out after 2 seconds. Element not found
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;
+System info: host: &apos;arhanechka&apos;, ip: &apos;192.168.1.100&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_74&apos;
+Driver info: driver.version: unknown</error>
+      <exception>org.openqa.selenium.NoSuchElementException:Timed out after 2 seconds. Element not found
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;
+System info: host: &apos;arhanechka&apos;, ip: &apos;192.168.1.100&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_74&apos;
+Driver info: driver.version: unknown&#xd;
+[org.oa.calc.pages.AdditionPage.adding(AdditionPage.java:27), org.oa.calc.definitions.AdditionDefSteps.adding(AdditionDefSteps.java:30)]</exception>
+    </test-step>
+  </test-group>
+  <test-step result="SKIPPED" duration="3">
+    <description>Then The result is {5}</description>
+  </test-step>
+</acceptance-test-run>

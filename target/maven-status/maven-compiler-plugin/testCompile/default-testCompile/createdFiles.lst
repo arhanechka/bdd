@@ -1,0 +1,4 @@
+org\oa\calc\pages\AdditionPage.class
+org\oa\calc\serenity\AdditionSerenity.class
+org\oa\calc\runner\AdditionRunner.class
+org\oa\calc\definitions\AdditionDefSteps.class
